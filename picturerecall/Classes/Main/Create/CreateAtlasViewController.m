@@ -21,12 +21,14 @@
     bb.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:bb];
     [bb addTarget:self action:@selector(ccc) forControlEvents:UIControlEventTouchUpInside];
+    
+    AVObject *testObject = [AVObject objectWithClassName:@"TestObject"];
+    [testObject setObject:@"bar1" forKey:@"foo"];
+    [testObject save];
 }
 
 - (void)ccc{
-    [self dismissViewControllerAnimated:YES completion:^{
-        
-    }];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

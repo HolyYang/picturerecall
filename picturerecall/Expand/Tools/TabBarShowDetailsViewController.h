@@ -10,4 +10,6 @@
 
 @interface TabBarShowDetailsViewController : BaseViewController
 
+@property(nonatomic,strong)UIViewController * root;
+
 @end

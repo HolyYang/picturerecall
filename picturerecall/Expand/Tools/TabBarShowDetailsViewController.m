@@ -35,9 +35,7 @@
 - (IBAction)clickCamera:(id)sender {
     [self dismissView];
     CreateAtlasViewController * create = [[CreateAtlasViewController alloc] init];
-    [self presentViewController:create animated:YES completion:^{
-        
-    }];
+    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:create animated:YES completion:nil];
     
 }
 
