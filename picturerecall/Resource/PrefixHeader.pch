@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  picturerecall
+//
+//  Created by YangY on 2018/2/26.
+//  Copyright © 2018年 yangyang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Macros.h"
+#import <AVOSCloud/AVOSCloud.h>
+#import "Text.h"
+#import "Account.h"
+#import "ProgressHUD.h"
+
+#endif /* PrefixHeader_pch */
