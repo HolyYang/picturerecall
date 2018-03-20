@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03CFE87F205BAED300C911F6 /* CreateAtlasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03CFE87E205BAED300C911F6 /* CreateAtlasViewController.xib */; };
+		03CFE884205BB7F800C911F6 /* round_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CFE880205BB7F600C911F6 /* round_close@3x.png */; };
+		03CFE885205BB7F800C911F6 /* round_check@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CFE881205BB7F600C911F6 /* round_check@3x.png */; };
+		03CFE886205BB7F800C911F6 /* round_check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CFE882205BB7F800C911F6 /* round_check@2x.png */; };
+		03CFE887205BB7F800C911F6 /* round_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CFE883205BB7F800C911F6 /* round_close@2x.png */; };
+		03CFE88B205BC35300C911F6 /* EditInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CFE889205BC35300C911F6 /* EditInfoViewController.m */; };
+		03CFE88C205BC35300C911F6 /* EditInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03CFE88A205BC35300C911F6 /* EditInfoViewController.xib */; };
 		3B02FCEF2043DB8500140524 /* picturerecallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B02FCEE2043DB8500140524 /* picturerecallTests.m */; };
 		3B02FCFA2043DB8500140524 /* picturerecallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B02FCF92043DB8500140524 /* picturerecallUITests.m */; };
 		3B02FD2F2043DDE500140524 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B02FD0D2043DDE400140524 /* AppDelegate.m */; };
@@ -66,6 +73,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03CFE87E205BAED300C911F6 /* CreateAtlasViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateAtlasViewController.xib; sourceTree = "<group>"; };
+		03CFE880205BB7F600C911F6 /* round_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "round_close@3x.png"; sourceTree = "<group>"; };
+		03CFE881205BB7F600C911F6 /* round_check@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "round_check@3x.png"; sourceTree = "<group>"; };
+		03CFE882205BB7F800C911F6 /* round_check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "round_check@2x.png"; sourceTree = "<group>"; };
+		03CFE883205BB7F800C911F6 /* round_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "round_close@2x.png"; sourceTree = "<group>"; };
+		03CFE888205BC35300C911F6 /* EditInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditInfoViewController.h; sourceTree = "<group>"; };
+		03CFE889205BC35300C911F6 /* EditInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditInfoViewController.m; sourceTree = "<group>"; };
+		03CFE88A205BC35300C911F6 /* EditInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditInfoViewController.xib; sourceTree = "<group>"; };
 		3A78F8B1E456467C559B7CB5 /* Pods-picturerecall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-picturerecall.release.xcconfig"; path = "Pods/Target Support Files/Pods-picturerecall/Pods-picturerecall.release.xcconfig"; sourceTree = "<group>"; };
 		3B02FCD22043DB8400140524 /* picturerecall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = picturerecall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B02FCEA2043DB8500140524 /* picturerecallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = picturerecallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -324,6 +339,9 @@
 				3B02FD62204557D600140524 /* TabBarShowDetailsViewController.h */,
 				3B02FD63204557D600140524 /* TabBarShowDetailsViewController.m */,
 				3B02FD64204557D600140524 /* TabBarShowDetailsViewController.xib */,
+				03CFE888205BC35300C911F6 /* EditInfoViewController.h */,
+				03CFE889205BC35300C911F6 /* EditInfoViewController.m */,
+				03CFE88A205BC35300C911F6 /* EditInfoViewController.xib */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -345,6 +363,10 @@
 		3B02FD2C2043DDE500140524 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				03CFE882205BB7F800C911F6 /* round_check@2x.png */,
+				03CFE881205BB7F600C911F6 /* round_check@3x.png */,
+				03CFE883205BB7F800C911F6 /* round_close@2x.png */,
+				03CFE880205BB7F600C911F6 /* round_close@3x.png */,
 				3B02FD79204646FA00140524 /* addition@2x.png */,
 				3B02FD7A204646FB00140524 /* addition@3x.png */,
 				3B02FD752046449B00140524 /* live@2x.png */,
@@ -371,6 +393,7 @@
 			children = (
 				3B02FD7E20467EE100140524 /* CreateAtlasViewController.h */,
 				3B02FD7F20467EE100140524 /* CreateAtlasViewController.m */,
+				03CFE87E205BAED300C911F6 /* CreateAtlasViewController.xib */,
 			);
 			path = Create;
 			sourceTree = "<group>";
@@ -504,15 +527,21 @@
 				3B02FD492043E3CF00140524 /* LoginViewController.xib in Resources */,
 				3B02FD782046449C00140524 /* live@3x.png in Resources */,
 				3B02FD742046400600140524 /* camera@2x.png in Resources */,
+				03CFE885205BB7F800C911F6 /* round_check@3x.png in Resources */,
 				3B02FD3D2043DDE500140524 /* Info.plist in Resources */,
 				3B02FD732046400600140524 /* camera@3x.png in Resources */,
+				03CFE886205BB7F800C911F6 /* round_check@2x.png in Resources */,
 				3B02FD7C204646FB00140524 /* addition@3x.png in Resources */,
 				3B02FD7B204646FB00140524 /* addition@2x.png in Resources */,
 				3B02FD6F2045696A00140524 /* close@3x.png in Resources */,
+				03CFE87F205BAED300C911F6 /* CreateAtlasViewController.xib in Resources */,
 				3B02FD66204557D600140524 /* TabBarShowDetailsViewController.xib in Resources */,
+				03CFE88C205BC35300C911F6 /* EditInfoViewController.xib in Resources */,
+				03CFE887205BB7F800C911F6 /* round_close@2x.png in Resources */,
 				3B02FD772046449C00140524 /* live@2x.png in Resources */,
 				3B02FD3C2043DDE500140524 /* Main.storyboard in Resources */,
 				3B02FD3A2043DDE500140524 /* Assets.xcassets in Resources */,
+				03CFE884205BB7F800C911F6 /* round_close@3x.png in Resources */,
 				3B02FD3B2043DDE500140524 /* LaunchScreen.storyboard in Resources */,
 				3B02FD702045696A00140524 /* close@2x.png in Resources */,
 			);
@@ -606,6 +635,7 @@
 				3B02FD8020467EE100140524 /* CreateAtlasViewController.m in Sources */,
 				3B02FD3E2043DDE500140524 /* main.m in Sources */,
 				3B02FD5E2045512700140524 /* BaseTabBarViewController.m in Sources */,
+				03CFE88B205BC35300C911F6 /* EditInfoViewController.m in Sources */,
 				3B02FD372043DDE500140524 /* UITextField_LeftView.m in Sources */,
 				3B02FD5820452DDB00140524 /* MeViewController.m in Sources */,
 				3B02FD6920455EA700140524 /* UIImage+y.m in Sources */,

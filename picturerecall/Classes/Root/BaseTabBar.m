@@ -21,7 +21,6 @@
         
         _showBtn = [[UIButton alloc]init];
         [_showBtn setBackgroundImage:[UIImage imageNamed:@"addition"] forState:UIControlStateNormal];
-//        _showBtn.backgroundColor = [UIColor redColor];
         [_showBtn addTarget:self action:@selector(showDetailsBtn:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _showBtn;

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '814814364257BFCF6FC5C1FEE34CFB5E'
+               BlueprintIdentifier = '257BDF2F1B0FD79E1D6E6A33DBF91D97'
                BlueprintName = 'Pods-picturerecall'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-picturerecall.a'>

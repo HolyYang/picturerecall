@@ -28,8 +28,11 @@
 #define APP_Color_Placeholder       UIColorFromRGB(0xcccccc)
 #define APP_Color_TintColor         UIColorFromRGB(0xffcf0d)
 #define APP_Color_NavTintColor      UIColorFromRGB(0x1b1e27)
+#define APP_Color_TitletColor       UIColorFromRGB(0x515151)
+#define APP_Color_DetailsColor      UIColorFromRGB(0x8a8a8a)
 
-#define APP_FONT_Title              [UIFont systemFontOfSize:15.0]
+#define APP_FONT_Title              [UIFont systemFontOfSize:16.0]
+#define APP_FONT_Details            [UIFont systemFontOfSize:14.0]
 #define APP_FONT_LITTLE             [UIFont systemFontOfSize:11.0]
 
 #define kApplication        [UIApplication sharedApplication]

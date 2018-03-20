@@ -23,7 +23,7 @@
 }
 
 - (void)dismissView{
-    [self dismissViewControllerAnimated:YES completion:^{
+    [self dismissViewControllerAnimated:NO completion:^{
         
     }];
 }
@@ -33,9 +33,9 @@
 }
 
 - (IBAction)clickCamera:(id)sender {
-    [self dismissView];
     CreateAtlasViewController * create = [[CreateAtlasViewController alloc] init];
-    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:create animated:YES completion:nil];
+    UINavigationController * createNav = [[UINavigationController alloc]initWithRootViewController:create];
+    [self presentViewController:createNav animated:YES completion:nil];
     
 }
 

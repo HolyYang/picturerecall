@@ -23,8 +23,8 @@
     [self setValue:tabBar forKeyPath:@"tabBar"];
     tabBar.clickShowBtn = ^(){
         TabBarShowDetailsViewController * details = [[TabBarShowDetailsViewController alloc]init];
+        details.root = self;
         [self presentViewController:details animated:YES completion:nil];
-        
     };
     
     if (@available(iOS 11.0, *)) {
